@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sarkari Result - Clone</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f1f1f1;
+      color: #000;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      font-size: 32px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .main {
+      flex: 2;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .main h2 {
+      text-align: center;
+      color: #cc0000;
+      margin-bottom: 20px;
+    }
+
+    .main ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .main ul li {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .main ul li a {
+      text-decoration: none;
+      color: #0000ee;
+      font-weight: bold;
+    }
+
+    .sidebar {
+      flex: 1;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .sidebar h3 {
+      color: #cc0000;
+      margin-bottom: 10px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 8px;
+    }
+
+    .sidebar ul li a {
+      text-decoration: none;
+      color: #0000ee;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      header h1 {
+        font-size: 24px;
+      }
+
+      .main h2 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>✪ SarkariResult.com ✪</h1>
+  </header>
+
+  <div class="container">
+    <div class="main">
+      <h2>Welcome to Sarkari Result</h2>
+      <ul>
+        <li><a href="#">Latest Jobs</a></li>
+        <li><a href="#">Admit Card</a></li>
+        <li><a href="#">Results</a></li>
+        <li><a href="#">Syllabus</a></li>
+        <li><a href="#">Answer Keys</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">UPSC</a></li>
+        <li><a href="#">Railway</a></li>
+        <li><a href="#">SSC</a></li>
+        <li><a href="#">Banking</a></li>
+        <li><a href="#">Police</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Sarkari Result Clone. Designed for Internship Task.
+  </footer>
+
+</body>
+</html>
